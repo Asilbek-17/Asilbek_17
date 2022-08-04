@@ -122,6 +122,16 @@ body{
   box-shadow: 0 10px 100px rgb(0 0 0 / 20%);
 }
 
+.logo {
+  color: #333;
+  transition: color .3s;
+  margin-left: 50px;
+}
+
+.logo:hover {
+  color: #facf0f;
+}
+
 .site-header__menu {
   display: flex;
   justify-content: space-between;
@@ -208,8 +218,8 @@ body{
 
 .social__list {
   position: fixed;
-  left: 0;
-  top: 50%;
+  left: calc(50% - 720px);
+  top: calc(50% - 110px);
   background: #fff;
   box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
   margin: 0;
@@ -249,6 +259,7 @@ body{
 
 .crown {
   position: fixed;
+  z-index: 30;
   left: calc(50% + 630px);
   bottom: calc(50% - 380px);
 }
@@ -534,6 +545,7 @@ body{
 }
 
 .contact__inp:not(:placeholder-shown):not(:focus):invalid {
+  color: #bf0808;
   border-color: #bf0808;
 }
 
@@ -559,6 +571,7 @@ body{
 }
 
 .contact__txtare:not(:placeholder-shown):not(:focus):invalid {
+  color: #bf0808;
   border-color: #bf0808;
 }
 
@@ -601,4 +614,51 @@ body{
   font-weight: 700;
   margin: 0;
   margin-bottom: 60px;
+}
+
+.site-footer {
+  padding: 30px 0;
+  background: #333;
+  color: #fff;
+}
+
+.start-box {
+  display: flex;
+  align-items: center;
+}
+
+.start-box__info {
+  width: 480px;
+  margin-right: auto;
+}
+.start-box__text {
+  width: 350px;
+}
+
+.start-box__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.school__text {
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.school_box {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer__text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
 }
