@@ -471,8 +471,17 @@ body{
 }
 
 .project__img {
-  border: 1px solid #666;
+  border: 1px solid #333;
   border-radius: 5px;
+  transition: .3s;
+}
+
+.project__img:hover {
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.8));
+}
+
+.project__img:active {
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0));
 }
 
 .project__list {
