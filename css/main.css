@@ -192,14 +192,44 @@ body{
 }
 
 .hero__title {
+  position: relative;
+  width: 680px;
+  display: block;
   font-size: 5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   color: #111;
   font-weight: 700;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 36px;
+}
+
+.hero__title::before
+{
+  content: attr(data-text);
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0.5px;
+  width: 350px;
+  margin: 0 auto;
+  color: #fafafa;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #333;
+  animation: animate 8s linear infinite;
+  animation-timing-function: ease-in-out;
+  filter: drop-shadow(0 0 30px #333) drop-shadow(0 0 60px #333);
+}
+
+@keyframes animate {
+  0%,10%,100% {
+    width: 0;
+  }
+  80%,90% {
+    width: 100%;
+  }
 }
 
 .hero__text {
