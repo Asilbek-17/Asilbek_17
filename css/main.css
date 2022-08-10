@@ -200,7 +200,7 @@ body{
   font-weight: 700;
   margin: 0;
   margin-bottom: 36px;
-  animation: heartBeat 2s linear none;
+  animation: flipInX 2s linear none;
   animation-timing-function: ease-in-out;
 }
 
