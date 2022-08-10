@@ -192,8 +192,6 @@ body{
 }
 
 .hero__title {
-  position: relative;
-  display: block;
   font-size: 5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -202,7 +200,7 @@ body{
   font-weight: 700;
   margin: 0;
   margin-bottom: 36px;
-  animation: zoomIn 0.5s linear none;
+  animation: heartBeat 2s linear none;
   animation-timing-function: ease-in-out;
 }
 
