@@ -202,7 +202,7 @@ body{
   font-weight: 700;
   margin: 0;
   margin-bottom: 36px;
-  animation: zoomIn 1s linear none;
+  animation: zoomIn 0.5s linear none;
   animation-timing-function: ease-in-out;
 }
 
