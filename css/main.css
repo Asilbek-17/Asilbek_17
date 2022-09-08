@@ -289,8 +289,8 @@ body{
   display: block;
   width: 100%;
   padding: 8px;
+  padding-bottom: 0;
   background-color: #fff;
-  border-radius: 0 10px 10px 0;
   transition: .3s;
   position: relative;
   margin-bottom: 5px;
@@ -298,24 +298,39 @@ body{
 
 
 .social__link:hover {
-  transform: scale(1.1);
-  background: rgba(250,207,15,.2);
+  transform: scale(1.2);
 }
 
 .social__link1 {
   display: block;
   width: 100%;
   padding: 8px;
+  padding-top: 0;
   background-color: #fff;
-  border-radius: 0 10px 10px 0;
   transition: .3s;
   position: relative;
 }
 
 
 .social__link1:hover {
-  transform: scale(1.1);
-  background: rgba(250,207,15,.2);
+  transform: scale(1.2);
+}
+
+.social__link2 {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #fff;
+  transition: .3s;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+
+.social__link2:hover {
+  transform: scale(1.2);
 }
 
 .social__img {
