@@ -230,7 +230,7 @@ body{
   white-space: nowrap;
   border-right: 4px solid #333;
   filter: drop-shadow(0 0 30px #facf0f) drop-shadow(0 0 60px #facf0f);
-
+  
 } */
 
 /* @keyframes animate {
@@ -274,8 +274,8 @@ body{
 
 .social__list {
   position: fixed;
-  left: calc(50% - 717px);
   top: calc(50% - 110px);
+  left: 0;
   background: #fff;
   box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
   margin: 0;
@@ -337,7 +337,7 @@ body{
 .crown {
   position: fixed;
   z-index: 30;
-  left: calc(50% + 630px);
+  right: 20px;
   bottom: calc(50% - 380px);
 }
 
